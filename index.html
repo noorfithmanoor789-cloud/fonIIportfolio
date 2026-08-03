@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Misbha Qazi Nursing Student Digital Portfolio for FON 2 at College of Nursing Female Nawabshah.">
+  <meta name="keywords" content="Misbha Qazi, Nursing Student, Digital Portfolio, FON 2, College of Nursing Female Nawabshah">
+  <meta name="author" content="Misbha Qazi">
+  <title>Misbha Qazi – Nursing Student Digital Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-label="Loading portfolio">
+    <div class="loader-card">
+      <div class="pulse-ring">
+        <i data-lucide="heart-pulse"></i>
+      </div>
+      <span>Misbha Qazi Portfolio</span>
+      <div class="loader-line"><span></span></div>
+    </div>
+  </div>
+
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Misbha Qazi home">
+        <span class="brand-mark"><i data-lucide="cross"></i></span>
+        <span>
+          <strong>Misbha Qazi</strong>
+          <small>Nursing Portfolio</small>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#skills">Skills</a>
+        <a href="#presentations">PPTs</a>
+        <a href="#experience">Clinical</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="floating-med med-one"><i data-lucide="stethoscope"></i></div>
+      <div class="floating-med med-two"><i data-lucide="syringe"></i></div>
+      <div class="floating-med med-three"><i data-lucide="clipboard-plus"></i></div>
+      <div class="floating-med med-four"><i data-lucide="heart-pulse"></i></div>
+
+      <div class="hero-content" data-aos="fade-up">
+        <p class="eyebrow">College of Nursing Female Nawabshah</p>
+        <h1>Misbha Qazi</h1>
+        <h2><span id="typingText"></span><span class="typing-cursor">|</span></h2>
+        <p class="hero-copy">A premium academic digital portfolio presenting FON 2 learning, nursing skills, clinical experience, professional growth, and semester achievements.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#about">
+            <i data-lucide="sparkles"></i>
+            Explore Portfolio
+          </a>
+          <a class="btn btn-secondary" href="#presentations">
+            <i data-lucide="presentation"></i>
+            View Presentations
+          </a>
+        </div>
+      </div>
+
+      <aside class="hero-panel glass" data-aos="fade-left" data-aos-delay="180">
+        <img src="images/nursing-practice.jpg" alt="Professional nursing student in a clinical environment">
+        <div class="hero-stats">
+          <div>
+            <strong class="counter" data-target="81">0</strong>
+            <span>Roll No.</span>
+          </div>
+          <div>
+            <strong class="counter" data-target="2">0</strong>
+            <span>Semester</span>
+          </div>
+          <div>
+            <strong class="counter" data-target="11">0</strong>
+            <span>PPTs</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Student Profile</p>
+        <h2>About Me</h2>
+        <p>Professional academic identity, submission information, and nursing career direction.</p>
+      </div>
+      <div class="about-grid">
+        <div class="profile-card glass" data-aos="fade-right">
+          <div class="profile-image">
+            <img src="images/student-activities.jpg" alt="Nursing student reviewing healthcare records">
+          </div>
+          <h3>Misbha Qazi</h3>
+          <p>2nd Semester Nursing Student</p>
+          <div class="goal">
+            <i data-lucide="target"></i>
+            <span>To become a highly skilled and compassionate professional nurse and contribute positively to healthcare services.</span>
+          </div>
+        </div>
+        <div class="info-grid" data-aos="fade-left">
+          <article class="info-card glass"><span>Student Name</span><strong>Misbha Qazi</strong></article>
+          <article class="info-card glass"><span>Roll Number</span><strong>81</strong></article>
+          <article class="info-card glass"><span>Semester</span><strong>2nd Semester</strong></article>
+          <article class="info-card glass"><span>Institute</span><strong>College of Nursing Female Nawabshah</strong></article>
+          <article class="info-card glass"><span>Subject</span><strong>FON 2</strong></article>
+          <article class="info-card glass"><span>Faculty</span><strong>Sir Ali Ghoar Dhari</strong></article>
+          <article class="info-card glass wide"><span>Submission Date</span><strong>14 May 2026</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="curriculum">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Academic Structure</p>
+        <h2>Curriculum</h2>
+        <p>Core learning areas for foundational nursing education and professional growth.</p>
+      </div>
+      <div class="card-grid curriculum-grid">
+        <article class="glass feature-card" data-aos="zoom-in">
+          <i data-lucide="book-open-check"></i>
+          <h3>FON 2 Learning</h3>
+          <p>Foundational nursing concepts, practical care principles, clinical behavior, and patient-centered practice.</p>
+        </article>
+        <article class="glass feature-card" data-aos="zoom-in" data-aos-delay="100">
+          <i data-lucide="graduation-cap"></i>
+          <h3>Academic Progress</h3>
+          <p>Structured coursework supported by presentations, clinical observations, reflection, and learning objectives.</p>
+        </article>
+        <article class="glass feature-card" data-aos="zoom-in" data-aos-delay="200">
+          <i data-lucide="file-text"></i>
+          <h3>Curriculum PDF</h3>
+          <p>Official curriculum resource for reference and academic documentation.</p>
+          <a class="btn btn-small" href="https://drive.google.com/file/d/1DsmHMMWCUtzNXwXUzSEVKS0q3c2v_4z-/view" target="_blank" rel="noopener">Open Curriculum PDF</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Clinical Capability</p>
+        <h2>Nursing Skills</h2>
+        <p>Skill-based presentation work with professional progress indicators.</p>
+      </div>
+      <div class="card-grid skills-grid">
+        <article class="glass skill-card" data-aos="fade-up">
+          <div class="card-icon"><i data-lucide="hand-heart"></i></div>
+          <h3>Patient Care Skills</h3>
+          <div class="progress"><span style="--progress: 92%"></span></div>
+          <a class="btn btn-small" href="https://docs.google.com/presentation/d/1rW1jKisAL7MoQUeRhKDY7CYe7_TSHPUW/edit" target="_blank" rel="noopener">Open Presentation</a>
+        </article>
+        <article class="glass skill-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="card-icon"><i data-lucide="activity"></i></div>
+          <h3>Vital Signs Practice</h3>
+          <div class="progress"><span style="--progress: 88%"></span></div>
+          <a class="btn btn-small" href="https://docs.google.com/presentation/d/1BKryr9odg881p-P-fA1xyngTYZrUkdI7/edit" target="_blank" rel="noopener">Open Presentation</a>
+        </article>
+        <article class="glass skill-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-icon"><i data-lucide="shield-plus"></i></div>
+          <h3>Infection Control</h3>
+          <div class="progress"><span style="--progress: 85%"></span></div>
+          <a class="btn btn-small" href="https://docs.google.com/presentation/d/1iu1DRHeD8xSbX5_CAAP8Z1AAo3cVXdHp/edit" target="_blank" rel="noopener">Open Presentation</a>
+        </article>
+        <article class="glass skill-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-icon"><i data-lucide="users-round"></i></div>
+          <h3>Communication & Teamwork</h3>
+          <div class="progress"><span style="--progress: 90%"></span></div>
+          <a class="btn btn-small" href="https://docs.google.com/presentation/d/1WWORehew69bjPAG2x-2EyHWQjR9BLtgW/edit" target="_blank" rel="noopener">Open Presentation</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section band" id="objectives">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Learning Direction</p>
+        <h2>Learning Objectives</h2>
+      </div>
+      <div class="pill-grid">
+        <article class="glass objective-card" data-aos="flip-left"><i data-lucide="messages-square"></i><span>Communication Skills</span></article>
+        <article class="glass objective-card" data-aos="flip-left" data-aos-delay="60"><i data-lucide="brain"></i><span>Clinical Knowledge</span></article>
+        <article class="glass objective-card" data-aos="flip-left" data-aos-delay="120"><i data-lucide="heart-handshake"></i><span>Patient Care</span></article>
+        <article class="glass objective-card" data-aos="flip-left" data-aos-delay="180"><i data-lucide="clipboard-check"></i><span>Nursing Practice</span></article>
+        <article class="glass objective-card" data-aos="flip-left" data-aos-delay="240"><i data-lucide="trending-up"></i><span>Professional Development</span></article>
+        <article class="glass objective-card" data-aos="flip-left" data-aos-delay="300"><i data-lucide="lightbulb"></i><span>Critical Thinking</span></article>
+        <article class="glass objective-card" data-aos="flip-left" data-aos-delay="360"><i data-lucide="scale"></i><span>Healthcare Ethics</span></article>
+      </div>
+    </section>
+
+    <section class="section" id="presentations">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">FON 2 Chapters</p>
+        <h2>PPT Presentations</h2>
+        <p>Premium academic presentation gallery with quick access to all chapter files.</p>
+      </div>
+      <div class="card-grid ppt-grid">
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 1</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1rRyeAjNBkKpwpn8chNb8JfUsaSUi4cwP/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 2</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1f4kuZXu65ORO5ve57ib0VfaBpcLc9-Ca/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 3</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1QJhn0086GhHt0b4Y4fTl5KgUZTb6PtMq/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 4</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1Zens8-0g49DzZTqfAWe8-08DUhDOHPKb/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 5</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1hmn4uyU6V500IUiNYVOg2PXkGhkcSJ8N/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 6</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1wpp1JuNYqwM2iiP_ipRuYT_mm0NZQVq8/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 7</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/18HTaNDnEerm1GQcXPMyrp5HpXgVRtF1L/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 8</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1tImg08FAC7XxoasFbSjahkDKafWXL1r8/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 9</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1L0jxDKLDWBucK06urgTopVBXm-f04dwp/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card" data-aos="fade-up"><i data-lucide="presentation"></i><h3>Chapter 10</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1y4WmmvkB-Oc9qBcFHU1Fug-GyYv9GuYV/edit" target="_blank" rel="noopener">Open PPT</a></article>
+        <article class="glass ppt-card highlight" data-aos="fade-up"><i data-lucide="badge-plus"></i><h3>Additional Presentation</h3><a class="btn btn-small" href="https://docs.google.com/presentation/d/1cpqDGwQtb8KvjvXXE0ECnVU6Uw0IzPFg/edit" target="_blank" rel="noopener">Open PPT</a></article>
+      </div>
+    </section>
+
+    <section class="section band" id="experience">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Clinical Learning</p>
+        <h2>Clinical Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item glass" data-aos="fade-right"><i data-lucide="building-2"></i><h3>Ward Duties</h3><p>Understanding ward routines, discipline, patient support, and documentation habits.</p></article>
+        <article class="timeline-item glass" data-aos="fade-left"><i data-lucide="eye"></i><h3>Patient Observation</h3><p>Monitoring patient condition, comfort, symptoms, and important clinical signs.</p></article>
+        <article class="timeline-item glass" data-aos="fade-right"><i data-lucide="heart"></i><h3>Patient Care</h3><p>Learning compassionate care, hygiene support, safety, and dignity in practice.</p></article>
+        <article class="timeline-item glass" data-aos="fade-left"><i data-lucide="syringe"></i><h3>Clinical Procedures</h3><p>Observing and practicing essential procedure preparation under supervision.</p></article>
+        <article class="timeline-item glass" data-aos="fade-right"><i data-lucide="scale"></i><h3>Nursing Ethics</h3><p>Building professional conduct, confidentiality, respect, and accountability.</p></article>
+        <article class="timeline-item glass" data-aos="fade-left"><i data-lucide="message-circle-heart"></i><h3>Communication Skills</h3><p>Improving interaction with patients, classmates, instructors, and healthcare teams.</p></article>
+        <article class="timeline-item glass" data-aos="fade-right"><i data-lucide="users"></i><h3>Teamwork</h3><p>Developing collaboration, responsibility sharing, and supportive clinical behavior.</p></article>
+        <article class="timeline-item glass" data-aos="fade-left"><i data-lucide="badge-check"></i><h3>Professional Nursing Practice</h3><p>Connecting theory with respectful, safe, and competent care in clinical settings.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="certificates">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Achievements</p>
+        <h2>Certificates</h2>
+      </div>
+      <div class="certificate-grid">
+        <article class="certificate-card glass" data-aos="zoom-in"><i data-lucide="award"></i><h3>Academic Certificate</h3><span>Placeholder</span></article>
+        <article class="certificate-card glass" data-aos="zoom-in" data-aos-delay="100"><i data-lucide="ribbon"></i><h3>Clinical Participation</h3><span>Placeholder</span></article>
+        <article class="certificate-card glass" data-aos="zoom-in" data-aos-delay="200"><i data-lucide="medal"></i><h3>Workshop Certificate</h3><span>Placeholder</span></article>
+      </div>
+    </section>
+
+    <section class="section reflection band" id="reflection">
+      <div class="reflection-wrap glass" data-aos="fade-up">
+        <i data-lucide="quote"></i>
+        <h2>Reflection</h2>
+        <p>This course enhanced my clinical knowledge, communication skills, confidence, patient care abilities, and professional understanding of nursing practices. It helped me improve practical healthcare skills and develop professional behavior in clinical settings.</p>
+      </div>
+    </section>
+
+    <section class="section" id="resources">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">PDF Library</p>
+        <h2>PDF Resources</h2>
+      </div>
+      <div class="resource-card glass" data-aos="fade-up">
+        <img src="images/charts.jpg" alt="Medical reference books and nursing resource material">
+        <div>
+          <i data-lucide="file-heart"></i>
+          <h3>NANDA & NCP PDF</h3>
+          <p>Professional nursing diagnosis and nursing care plan resource for academic study.</p>
+          <a class="btn btn-primary" href="https://drive.google.com/file/d/1ttzu2rvCLqme5MO62k6XbWX-K3fO-Zye/view" target="_blank" rel="noopener">Open NANDA & NCP PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="articles">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Research Library</p>
+        <h2>Research Articles</h2>
+      </div>
+      <div class="card-grid article-grid">
+        <article class="glass article-card" data-aos="fade-up">
+          <i data-lucide="file-text"></i>
+          <h3>Research Article 1</h3>
+          <a class="btn btn-small" href="https://drive.google.com/file/d/1lB2bLfkLB5pphE7_v960IhWCbA_BwdPp/view" target="_blank" rel="noopener">Open Article</a>
+        </article>
+        <article class="glass article-card" data-aos="fade-up" data-aos-delay="100">
+          <i data-lucide="file-text"></i>
+          <h3>Research Article 2</h3>
+          <a class="btn btn-small" href="https://drive.google.com/file/d/1Vzl3lengB5ZczYHNCFQ5B0t9jp_8QdGo/view" target="_blank" rel="noopener">Open Article</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="ncp">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Professional Care Planning</p>
+        <h2>Nursing Care Plan (NCP)</h2>
+      </div>
+      <div class="ncp-card glass" data-aos="fade-up">
+        <i data-lucide="clipboard-plus"></i>
+        <h3>Nursing Care Plan Document</h3>
+        <p>A premium academic NCP document presenting structured patient assessment, nursing diagnosis, care planning, interventions, and professional nursing evaluation.</p>
+        <a class="btn btn-primary" href="https://docs.google.com/document/d/1KVo0snSbZHbAnM9zKox5Th6Ry6Hc-HNU/edit" target="_blank" rel="noopener">Open Nursing Care Plan</a>
+      </div>
+    </section>
+
+    <section class="section band" id="gallery">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Portfolio Gallery</p>
+        <h2>Gallery</h2>
+      </div>
+      <div class="gallery-grid">
+        <article class="gallery-card" data-aos="fade-up">
+          <img src="images/clinical-activities.jpg" alt="Clinical Activities">
+          <span>Clinical Activities</span>
+        </article>
+        <article class="gallery-card" data-aos="fade-up" data-aos-delay="80">
+          <img src="images/academic-events.jpg" alt="Academic Events">
+          <span>Academic Events</span>
+        </article>
+        <article class="gallery-card" data-aos="fade-up" data-aos-delay="160">
+          <img src="images/charts.jpg" alt="Charts">
+          <span>Charts</span>
+        </article>
+        <article class="gallery-card" data-aos="fade-up" data-aos-delay="240">
+          <img src="images/nursing-practice.jpg" alt="Nursing Practice">
+          <span>Nursing Practice</span>
+        </article>
+        <article class="gallery-card" data-aos="fade-up" data-aos-delay="320">
+          <img src="images/student-activities.jpg" alt="Student Activities">
+          <span>Student Activities</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section conclusion" id="conclusion">
+      <div class="reflection-wrap glass" data-aos="fade-up">
+        <i data-lucide="check-circle-2"></i>
+        <h2>Conclusion</h2>
+        <p>This digital portfolio reflects my academic progress, nursing knowledge, clinical learning, professional development, and practical experiences during the semester.</p>
+      </div>
+    </section>
+
+    <section class="section contact band" id="contact">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="eyebrow">Connect</p>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form glass" data-aos="fade-right">
+          <label>
+            <span>Your Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" placeholder="email@example.com" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea placeholder="Write your message" rows="5" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit"><i data-lucide="send"></i> Send Message</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+        <div class="contact-card glass" data-aos="fade-left">
+          <h3>Misbha Qazi</h3>
+          <p>College of Nursing Female Nawabshah</p>
+          <a href="mailto:student.email@example.com"><i data-lucide="mail"></i> student.email@example.com</a>
+          <a href="#" aria-label="WhatsApp placeholder"><i data-lucide="message-circle"></i> WhatsApp Placeholder</a>
+          <div class="social-row">
+            <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <footer class="footer">
+    <div>
+      <strong>Misbha Qazi – Nursing Student Digital Portfolio</strong>
+      <p>FON 2 | Roll No. 81 | Submitted 14 May 2026</p>
+    </div>
+    <span>Designed for academic excellence and professional presentation.</span>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
